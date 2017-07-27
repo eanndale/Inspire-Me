@@ -1,7 +1,7 @@
- function() {
+ function insertQuote() {
       var quotes = [
           "text1",
-          "Text2",
+          "text2",
           "text3",
           "text4"
       ];
