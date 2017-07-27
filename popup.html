@@ -1,8 +1,26 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h1> "People change people." -Beauty</h1>
-
+  <div id="quote"></div>
+  <script>
+    (function() {
+      var quotes = [
+        {
+            text: "quote 1"
+        },
+        {
+            text: "quote 2"
+        }
+        {
+            text: "quote 3"
+        },
+        {
+            text: "quote 4"
+        },
+       ];
+      var quote = quotes[Math.floor(Math.random() * quotes.length)];
+      document.getElementById("quote").innerHTML = '<h1>' + quote.text + '</h1>';
+    })();
+  </script>
 </body>
 </html>
