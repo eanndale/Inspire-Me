@@ -1,10 +1,10 @@
  window.onload = function() {
       var quotes = [
-          "text1",
-          "text2",
-          "text3",
-          "text4"
+          "\"The worst you can do is fail\"",
+          "\"Find your passion\"",
+          "\"Just live. Be strong. Move on.\"",
+          "\"We create our own deamons\" -Tony Stark"
       ];
       var quote = quotes[Math.floor(Math.random() * quotes.length)];
-      document.getElementById("quote").innerHTML = '<p>' + quote + '</p>';
+      document.getElementById("quote").innerHTML = '<h1>' + quote + '</h1>';
 };
