@@ -1,4 +1,4 @@
- function insertQuote() {
+ window.onload = function() {
       var quotes = [
           "text1",
           "text2",
@@ -7,4 +7,4 @@
       ];
       var quote = quotes[Math.floor(Math.random() * quotes.length)];
       document.getElementById("quote").innerHTML = '<p>' + quote + '</p>';
-}
+};
