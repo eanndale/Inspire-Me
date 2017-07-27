@@ -6,5 +6,5 @@
           "\"We create our own deamons\" -Tony Stark"
       ];
       var quote = quotes[Math.floor(Math.random() * quotes.length)];
-      document.getElementById("quote").innerHTML = '<h1>' + quote + '</h1>';
+      document.getElementById("quote").innerHTML = quote;
 };
