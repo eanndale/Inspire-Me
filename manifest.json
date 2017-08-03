@@ -8,7 +8,9 @@
     "default_icon": "quotes.png",
     "default_popup": "popup.html"
   },
+  "background_page": "popup.html",
   "background": {
     "scripts": ["background.js"]
   }
+  
 }
