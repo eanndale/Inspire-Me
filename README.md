@@ -1,2 +1,2 @@
 # Inspire-Me
-A Google Chrome extension with your favorite inspirational quotes.
+A Google Chrome extension with randomly generated quotes opened in a new window.
