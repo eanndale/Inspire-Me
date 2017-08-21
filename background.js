@@ -8,4 +8,5 @@ chrome.browserAction.onClicked.addListener(
             // create new tab
             chrome.tabs.create({'url': chrome.extension.getURL('popup.html'), 'selected': true});
         }
-    });
+    }
+});
